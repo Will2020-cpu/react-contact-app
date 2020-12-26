@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+input{
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius:  5px;
+  line-height: 1.5;
+  font-size: 1rem;
+  appearance: textfield;
+  width: auto;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition-property: border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s
+}
+
+input:focus{
+  outline: none;
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
